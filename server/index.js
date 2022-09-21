@@ -19,7 +19,7 @@ app.use(express.static(path.join(__dirname, '../client')))
 //     res.sendFile(path.join(__dirname, '../client/main.js'))
 // })
 
-app.post('register', (req, res) => res.status(200).send('Registered'))
+
 
 app.listen(port, () => {
     console.log('Docked at port ' + port)
